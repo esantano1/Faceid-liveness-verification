@@ -1,0 +1,22 @@
+# Biometric data: never commit face embeddings or images
+data/*
+!data/.gitkeep
+*.npy
+*.npz
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+
+# Windows download metadata
+*:Zone.Identifier
+*Zone.Identifier
